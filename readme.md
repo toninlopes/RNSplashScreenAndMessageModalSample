@@ -5,7 +5,7 @@ I am talking about the React Native Modal component. According with React Native
 
 For most of the cases, React Native Modal component is fine. But when you need a bit more control over the pop up and presenting a modal message options (yes, no or something else) after a modal loading screen, it starts losing the control and ending up in undesirable behaviour like, for example, a modal that never closes.
 
-In this article I are going to build an alternative to the React Native Modal component which I have been using. I am talking about building our own Modal component. 
+In this article I are going to build an alternative to the React Native Modal component which I have been using. I am talking about building our own Modal component.
 
 ## Creating our scenario
 First of all, lets create our React Native Sample project. Open your terminal and on your project folder type:
@@ -60,7 +60,7 @@ export default Details = ({route, navigation}) => {
         <Text style={[styles.text, styles.title]}>{`Page ${page}`}</Text>
       </View>
       <TouchableOpacity style={styles.button} onPress={_onNavigate}>
-        <Text style={styles.buttonText}>Navigate Foward</Text>
+        <Text style={styles.buttonText}>Navigate Forward</Text>
       </TouchableOpacity>
     </SafeAreaView>
   );
